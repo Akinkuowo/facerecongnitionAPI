@@ -11,21 +11,10 @@
     "knex": "^0.17.6",
     "node.js": "0.0.0",
     "pg": "^7.11.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-particles-js": "^2.6.0",
-    "react-redux": "^7.0.3",
-    "react-scripts": "3.0.0",
-    "redux": "^4.0.1",
-    "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.3.0",
     "tachyons": "^4.11.1"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "scripts": { 
+    "start": "nodemon server.js"
   },
   "eslintConfig": {
     "extends": "react-app"
