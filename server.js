@@ -33,17 +33,7 @@ app.put('/image', (req, res) => {image.handleImage(req, res, db) })
 app.post('/imageUrl', (req, res) => {image.handleApiRequest(req, res,) })
 
 
-app.listen(3000, ()=> {
-	console.log('app is running on port 3000')
+app.listen(process.env.PORT || 3000, ()=> {
+	console.log(`app is running on port ${process.env.PORT}`)
 }); 
 
-
-/*
-// App Api
-// '/' --> Get = this is working
-// '/signin' --> post = used the user in
-// '/register' --> post = create a new user
-// '/profile/:id' --> get = updating existing user details
-// '/image' --> put = increase users ranks 
-
-*/
