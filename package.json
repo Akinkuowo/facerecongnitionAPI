@@ -1,37 +1,22 @@
 {
-  "name": "faceAPI",
-  "version": "0.1.0",
-  "private": true,
+  "name": "facerecongnitionapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "oluwaseun",
+  "license": "ISC",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.19.0",
     "clarifai": "^2.9.0",
     "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "knex": "^0.17.6",
+    "express.js": "^1.0.0",
+    "knex": "^0.18.1",
     "node.js": "0.0.0",
-    "pg": "^7.11.0",
-    "tachyons": "^4.11.1"
-  },
-  "scripts": { 
-   
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.1",
+    "pg": "^7.11.0"
   }
 }
