@@ -14,7 +14,7 @@
     "tachyons": "^4.11.1"
   },
   "scripts": { 
-    "start": "nodemon server.js"
+   
   },
   "eslintConfig": {
     "extends": "react-app"
